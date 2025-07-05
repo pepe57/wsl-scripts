@@ -1,0 +1,3 @@
+pacman -Syu --noconfirm
+pacman -S --noconfirm nodejs npm
+npm install -g yarn

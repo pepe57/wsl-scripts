@@ -1,0 +1,7 @@
+name: dotnet-dev-env-arch
+description: Install .NET SDK and runtime for C# development
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Arch

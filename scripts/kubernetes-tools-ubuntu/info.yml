@@ -1,0 +1,7 @@
+name: kubernetes-tools-ubuntu
+description: Install kubectl, helm, and k9s for Kubernetes management
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Ubuntu

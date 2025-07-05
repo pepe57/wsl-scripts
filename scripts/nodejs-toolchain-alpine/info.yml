@@ -1,0 +1,7 @@
+name: nodejs-toolchain-alpine
+description: Install Node.js with npm and yarn package managers
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Alpine

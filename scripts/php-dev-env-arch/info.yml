@@ -1,0 +1,7 @@
+name: php-dev-env-arch
+description: Install PHP with Composer and common extensions
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Arch

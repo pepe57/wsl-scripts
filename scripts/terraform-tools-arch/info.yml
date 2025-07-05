@@ -1,0 +1,7 @@
+name: terraform-tools-arch
+description: Install Terraform and Ansible for Infrastructure as Code
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Arch

@@ -1,0 +1,7 @@
+name: python-dev-env-alpine
+description: Install Python 3 with pip and development packages
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Alpine

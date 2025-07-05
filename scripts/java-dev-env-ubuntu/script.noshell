@@ -1,0 +1,4 @@
+apt-get update
+apt-get install -y openjdk-21-jdk openjdk-21-jre maven gradle
+update-alternatives --config java || true
+echo 'export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64' >> "$HOME/.bashrc" || true

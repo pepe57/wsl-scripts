@@ -1,0 +1,3 @@
+pacman -Syu --noconfirm
+pacman -S --noconfirm go
+echo 'export PATH=$PATH:$HOME/go/bin' >> "$HOME/.bashrc" || true

@@ -1,0 +1,7 @@
+name: java-dev-env-ubuntu
+description: Install OpenJDK 21 LTS with Maven and Gradle build tools
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Ubuntu

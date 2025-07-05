@@ -1,0 +1,7 @@
+name: rust-toolchain-arch
+description: Install Rust programming language with rustup and cargo
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Arch

@@ -1,0 +1,7 @@
+name: docker-toolchain-ubuntu
+description: Install Docker Engine and Docker Compose for Ubuntu
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Ubuntu

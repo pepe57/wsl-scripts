@@ -1,0 +1,7 @@
+name: dotnet-dev-env-alpine
+description: Install .NET SDK for C# development
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Alpine

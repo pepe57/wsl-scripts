@@ -1,0 +1,7 @@
+name: docker-toolchain-alpine
+description: Install Docker CLI and Docker Compose for Alpine Linux
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Alpine

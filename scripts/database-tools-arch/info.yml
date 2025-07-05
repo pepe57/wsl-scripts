@@ -1,0 +1,7 @@
+name: database-tools-arch
+description: Install PostgreSQL and MySQL client tools, Redis CLI
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Arch

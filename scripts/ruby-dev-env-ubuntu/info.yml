@@ -1,0 +1,7 @@
+name: ruby-dev-env-ubuntu
+description: Install Ruby with rbenv and bundler for Ruby development
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Ubuntu

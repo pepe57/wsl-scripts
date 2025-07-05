@@ -1,0 +1,7 @@
+name: basic-dev-tools-arch
+description: Install essential development tools (curl, git, wget, base-devel, etc)
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Arch

@@ -1,0 +1,7 @@
+name: rust-toolchain-alpine
+description: Install Rust programming language with cargo
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Alpine

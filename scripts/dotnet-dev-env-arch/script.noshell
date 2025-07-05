@@ -1,0 +1,2 @@
+pacman -Syu --noconfirm
+pacman -S --noconfirm dotnet-sdk aspnet-runtime

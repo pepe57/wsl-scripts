@@ -1,0 +1,3 @@
+apk update
+apk add --no-cache docker-cli docker-cli-compose
+addgroup $SUDO_USER docker || true

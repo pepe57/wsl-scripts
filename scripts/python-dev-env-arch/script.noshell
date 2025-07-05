@@ -1,0 +1,2 @@
+pacman -Syu --noconfirm
+pacman -S --noconfirm python python-pip python-virtualenv

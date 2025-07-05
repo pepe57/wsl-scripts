@@ -1,0 +1,9 @@
+apt-get update
+apt-get install -y wget
+GO_VERSION=$(wget -qO- https://go.dev/VERSION?m=text | head -1)
+wget "https://go.dev/dl/${GO_VERSION}.linux-amd64.tar.gz" -O /tmp/go.tar.gz
+rm -rf /usr/local/go
+tar -C /usr/local -xzf /tmp/go.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin' >> "$HOME/.bashrc" || true
+echo 'export PATH=$PATH:$HOME/go/bin' >> "$HOME/.bashrc" || true
+rm /tmp/go.tar.gz

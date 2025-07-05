@@ -1,0 +1,7 @@
+name: cpp-dev-tools-alpine
+description: Install C/C++ compilers, CMake, and debugging tools
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Alpine

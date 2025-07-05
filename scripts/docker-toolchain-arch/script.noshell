@@ -1,0 +1,4 @@
+pacman -Syu --noconfirm
+pacman -S --noconfirm docker docker-compose
+systemctl enable docker.service || true
+usermod -aG docker $SUDO_USER || true

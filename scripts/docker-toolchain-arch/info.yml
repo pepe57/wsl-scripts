@@ -1,0 +1,7 @@
+name: docker-toolchain-arch
+description: Install Docker Engine and Docker Compose for Arch Linux
+version: 1.0.0
+author: FizzWizzleDazzle
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro: Arch

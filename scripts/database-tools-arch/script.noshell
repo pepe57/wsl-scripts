@@ -1,0 +1,2 @@
+pacman -Syu --noconfirm
+pacman -S --noconfirm postgresql-libs mariadb-clients redis
