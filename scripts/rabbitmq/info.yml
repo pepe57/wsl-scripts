@@ -1,0 +1,11 @@
+name: rabbitmq
+description: RabbitMQ broker with the management dashboard on port 15672 and AMQP on 5672. Credentials guest / guest.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

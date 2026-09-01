@@ -1,0 +1,11 @@
+name: mysql
+description: MySQL 8 database server on port 3306. Root password root, database app.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

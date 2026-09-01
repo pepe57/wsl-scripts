@@ -1,0 +1,11 @@
+name: minio-s3
+description: S3-compatible object storage (MinIO) with a web console on port 9001, API on 9000. Credentials minioadmin / minioadmin.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

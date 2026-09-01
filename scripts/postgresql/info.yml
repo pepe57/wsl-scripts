@@ -1,0 +1,11 @@
+name: postgresql
+description: PostgreSQL 16 database server on port 5432. User postgres, password postgres, database postgres.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

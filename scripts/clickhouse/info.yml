@@ -1,0 +1,11 @@
+name: clickhouse
+description: ClickHouse OLAP database with the HTTP play UI on port 8123 and the native protocol on 9009. Default user, no password.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora
