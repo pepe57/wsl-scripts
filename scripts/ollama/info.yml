@@ -1,0 +1,11 @@
+name: ollama
+description: Ollama local LLM server on port 11434 (CPU inference). Pull a model afterwards with docker exec wslm-ollama ollama pull llama3.2
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

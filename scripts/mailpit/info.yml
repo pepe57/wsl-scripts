@@ -1,0 +1,11 @@
+name: mailpit
+description: Mailpit local SMTP catcher — point your app at SMTP port 1025 and read every mail it sends in the web UI on port 8025.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

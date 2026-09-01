@@ -1,0 +1,11 @@
+name: n8n
+description: n8n workflow automation with its editor on port 5678. Workflows kept in a named volume.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

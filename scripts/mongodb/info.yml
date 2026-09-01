@@ -1,0 +1,11 @@
+name: mongodb
+description: MongoDB 7 document database on port 27017. No auth (development default); data kept in a named volume.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

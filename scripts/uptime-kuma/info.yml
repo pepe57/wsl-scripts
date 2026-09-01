@@ -1,0 +1,11 @@
+name: uptime-kuma
+description: Uptime Kuma self-hosted monitoring with its dashboard on port 3001. Monitors kept in a named volume.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

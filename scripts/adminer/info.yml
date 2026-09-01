@@ -1,0 +1,11 @@
+name: adminer
+description: Adminer web UI on port 8080 for managing PostgreSQL, MySQL, and other databases (pairs with the postgresql/mysql scripts).
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora

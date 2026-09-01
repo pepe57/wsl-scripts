@@ -1,0 +1,11 @@
+name: gitea
+description: Gitea self-hosted Git service — web UI on port 3000, Git-over-SSH on port 2222. Repositories kept in a named volume.
+version: 1.0.0
+author: bostrot
+license: MIT
+git: https://github.com/bostrot/wsl-scripts
+distro:
+  - Debian
+  - Ubuntu
+  - Alpine
+  - Fedora
