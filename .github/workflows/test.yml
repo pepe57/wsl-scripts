@@ -1,0 +1,49 @@
+name: Test scripts
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  structure:
+    name: Structure of every script
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PyYAML
+        run: pip install pyyaml
+      - name: Check format, uniqueness and shell syntax
+        run: python3 ci/check_structure.py
+
+  discover:
+    name: Find runnable service scripts
+    runs-on: ubuntu-latest
+    needs: structure
+    outputs:
+      services: ${{ steps.list.outputs.services }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: list
+        # Only the Docker-based service scripts run on the shared runner;
+        # the legacy scripts (fake-systemd, apt-upgrade, ...) mutate the
+        # host system and are covered by the structure job alone.
+        run: |
+          services=$(for d in scripts/*/; do
+            name=$(basename "$d")
+            grep -q -- '--name wslm-' "$d/script.noshell" && echo "$name"
+          done | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          echo "services=$services" >> "$GITHUB_OUTPUT"
+          echo "Runnable services: $services"
+
+  service-works:
+    name: ${{ matrix.script }} works
+    runs-on: ubuntu-latest
+    needs: discover
+    strategy:
+      fail-fast: false
+      matrix:
+        script: ${{ fromJson(needs.discover.outputs.services) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run the script and probe its service
+        run: ci/run_service_test.sh "${{ matrix.script }}"
